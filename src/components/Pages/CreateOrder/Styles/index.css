@@ -1,0 +1,177 @@
+.custom-form {
+  border: 1px solid #f3f3f3;
+  border-radius: 10px;
+  padding: 25px 20px 10px 20px;
+  background-color: #f8f8f8;
+}
+
+.react-datalist-input__container {
+  margin-top: 0;
+  padding-top: 0;
+  width: 100%;
+}
+
+
+.react-datalist-input__textbox {
+  width: 100%;
+  height: 40px;
+  border: 1px solid #d7d7d7;
+  border-radius: 5px;
+}
+
+.react-datalist-input__listbox {
+  margin-left: 7%;
+  background-color: white;
+  border: 1px solid #d7d7d7;
+  position: absolute;
+  overflow-y: scroll;
+  height: 200px;
+  padding-left: 0;
+}
+
+.react-datalist-input__listbox-option {
+  height: 30px;
+  list-style: none;
+  padding-left: 30px;
+}
+
+.react-datalist-input__listbox-option:hover {
+  background-color: #0cb60c;
+  color: white;
+}
+
+.block-label-buyer {
+  width: 100%;
+  margin-top: 10px;
+}
+.label-buyer {
+  font-size: 20px;
+  color: #3a3a3a;
+}
+.btn-LogIn {
+}
+.login-cell {
+  text-align: right;
+}
+
+.input-default-border-color {
+  border: 1px solid #8DC73D;
+}
+
+/*//==============*/
+
+.btn-payment {
+  background-color: white;
+  border: 1px dashed #8DC73D;
+  border-radius: 10px;
+  line-height: 10px;
+  padding: 20px 10px 20px 10px;
+  width: 100%;
+}
+
+.btn-payment:hover {
+  border: 1px solid #8DC73D;
+}
+
+.icon-payment {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 15px;
+}
+
+.title-payment {
+  color: #8DC73D;
+  line-height: 5px;
+  font-weight: bold;
+}
+
+.desc-payment {
+  color: gray;
+}
+
+.btn-payment-active {
+  background-color: #8DC73D;
+  border: 1px solid #8DC73D;
+  border-radius: 10px;
+  line-height: 10px;
+  padding: 20px 10px 20px 10px;
+  width: 100%;
+}
+
+.title-payment-active {
+  color: white;
+  line-height: 5px;
+  font-weight: bold;
+}
+
+.desc-payment-active {
+  color: white;
+}
+
+.label-form {
+  color: #3a3a3a;
+  font-weight: normal;
+}
+
+.error-input {
+  font-size: 15px;
+}
+
+/*Column Info order*/
+
+.delivery-form {
+  border: 1px solid #f3f3f3;
+  border-radius: 10px;
+  padding: 25px 20px 10px 20px;
+  background-color: #f8f8f8;
+}
+
+.delete-button {
+  border: none;
+  background: none;
+  color: crimson;
+}
+
+.delete-button > * {
+  width: 20px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.delete-button > *:hover {
+  color: #c01033;
+}
+
+.product-order {
+  padding: 0 4px 0 4px;
+}
+
+.cart-total-price-delivery {
+  text-align: right;
+}
+
+.sale {
+  position: relative;
+}
+
+.sale:before {
+  border-bottom: 3px solid red;
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 70%;
+  transform: rotate(-13deg);
+}
+
+.display-sale {
+  display: block;
+}
+
+.hide-sale {
+  display: none;
+}
+
+.error-code {
+  font-size: 14px;
+  color: red;
+}

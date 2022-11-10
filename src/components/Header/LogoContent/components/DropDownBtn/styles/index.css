@@ -1,0 +1,25 @@
+.link-text {
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+  text-transform: lowercase;
+}
+
+.drop-menu {
+  padding-left: 0;
+  font-size: 20px;
+}
+
+.drop-menu > .nav-link {
+  color: black;
+}
+
+.drop-menu div.show {
+  padding-left: 10%;
+  width: 350px;
+}
+
+.active {
+  color: #3a60f8;
+  cursor: default;
+}

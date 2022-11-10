@@ -1,0 +1,59 @@
+.error-input {
+  color: #c40000;
+  font-weight: normal;
+  padding-left: 7px;
+}
+
+.background-form {
+
+}
+
+.custom-form {
+  margin: 0 auto 0 auto;
+  width: 90%;
+}
+
+.title-form {
+  text-align: center;
+  color: white;
+  padding: 20px 0 10px 0;
+}
+
+.label-form {
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 10px 0 10px 0;
+  border: none;
+  border-radius: 10px;
+  background-color: #e3e00d;
+  color: #444343;
+  margin: 10px 0 10px 0;
+}
+
+.submit-button:hover {
+  background-color: #bdbb0c;
+  color: #444343;
+}
+
+.isHaveAccount {
+  color: #3a3a3a;
+  margin-left: 36%;
+}
+
+.isHaveAccountRegister {
+  color: #3a3a3a;
+  margin-left: 29%;
+}
+
+.background-form-size {
+  height: 270px;
+  margin: 0 auto 0 auto;
+  width: 50%;
+  background-color: #8DC73D;
+  border-radius: 20px;
+}

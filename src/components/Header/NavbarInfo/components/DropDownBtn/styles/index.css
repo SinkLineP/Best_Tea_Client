@@ -1,0 +1,24 @@
+.link-text-info {
+  color: black;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.drop-menu-info {
+  padding-left: 10%;
+}
+
+.nav-drop-menu-info > .nav-link {
+  color: black;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.active {
+  color: #3a60f8;
+  cursor: default;
+}

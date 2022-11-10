@@ -1,0 +1,9 @@
+.info-content-visible {
+  display: block;
+}
+
+@media only screen and (max-width: 425px) {
+  .info-content-visible {
+    display: none;
+  }
+}

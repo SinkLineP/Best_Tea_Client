@@ -1,0 +1,279 @@
+.navbar-search-customize {
+  background-color: #8DC73D;
+}
+
+.DropDownCategory {
+  margin-right: 30px;
+}
+
+.nav-links {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.nav-col-1 {
+  max-height: 100px;
+  width: 15%;
+}
+.nav-col-2 {
+  max-height: 100px;
+  width: 65%;
+  padding-left: 55px;
+}
+.nav-col-3 {
+  max-height: 100px;
+  width: 20%;
+  text-align: right;
+}
+
+::-moz-focus-outer, ::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+.search-button > svg {
+  margin-bottom: 3px;
+}
+
+#dropdown-variants-success {
+  background: none;
+  border: none;
+  outline: none;
+  border-radius: 0;
+  padding-left: 0;
+}
+
+#dropdown-variants-success:after {
+  display:none;
+}
+
+#dropdown-variants-success:focus,
+#dropdown-variants-success.active,
+#dropdown-variants-success.focus,
+#dropdown-variants-success:hover {
+  outline: 0;
+  box-shadow: none;
+  background: none;
+}
+
+#dropdown-basic-button {
+  margin-right: 10px;
+}
+
+.dropdown-menu-account {
+  right: 100px;
+}
+
+.account-and-cart {
+  width: 100%;
+  margin-left: 5px;
+}
+
+.big-display {
+  display: block;
+}
+
+.small-display {
+  display: none;
+}
+
+/*responsive account and cart*/
+
+.row-width {
+  display: block;
+}
+
+.row-col-1 {
+  display: inline-block;
+  width: 60%;
+}
+
+.row-col-2 {
+  display: inline-block;
+  width: 40%;
+}
+
+/*form search*/
+
+.form-search {
+  width: 90%;
+  margin: 0 auto 0 auto;
+}
+
+.countItems {
+  position: absolute;
+  top: 4px;
+  margin-left: 15px;
+  background-color: crimson;
+  padding: 0 5px 0 5px;
+  border-radius: 10px;
+}
+
+@media only screen and (min-width: 1440px) {
+  .nav-col-1 {
+    max-height: 100px;
+    width: 20%;
+  }
+
+  .nav-col-2 {
+    max-height: 100px;
+    width: 60%;
+  }
+
+  .nav-col-3 {
+    max-height: 100px;
+    width: 20%;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .nav-col-1 {
+    max-height: 100px;
+    width: 20%;
+  }
+
+  .nav-col-2 {
+    max-height: 100px;
+    width: 60%;
+  }
+
+  .nav-col-3 {
+    max-height: 100px;
+    width: 20%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .nav-col-1 {
+    max-height: 100px;
+    width: 15%;
+  }
+
+  .nav-col-2 {
+    max-height: 100px;
+    width: 65%;
+  }
+
+  .nav-col-3 {
+    max-height: 100px;
+    width: 20%;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .big-display {
+    width: 50%;
+    display: none;
+  }
+
+  .small-display {
+    width: 40%;
+    display: block;
+  }
+
+  .row-col-1 {
+    width: 50%;
+  }
+
+  .row-col-2 {
+    width: 50%;
+  }
+
+  .nav-col-1 {
+    max-height: 100px;
+    width: 14%;
+  }
+
+  .nav-col-2 {
+    max-height: 100px;
+    width: 65%;
+  }
+
+  .nav-col-3 {
+    max-height: 100px;
+    width: 21%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .nav-col-1 {
+    max-height: 100px;
+    width: 18%;
+  }
+
+  .nav-col-2 {
+    max-height: 100px;
+    width: 55%;
+  }
+
+  .nav-col-3 {
+    max-height: 100px;
+    width: 27%;
+  }
+
+  .row-col-1 {
+    width: 60%;
+  }
+
+  .row-col-2 {
+    width: 40%;
+    padding-right: 6px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .nav-col-1 {
+    max-height: 100px;
+    width: 24%;
+  }
+
+  .nav-col-2 {
+    max-height: 100px;
+    width: 50%;
+  }
+
+  .nav-col-3 {
+    max-height: 100px;
+    width: 26%;
+  }
+
+  .row-col-1 {
+    width: 45%;
+  }
+
+  .row-col-2 {
+    width: 55%;
+    padding-right: 6px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .nav-col-1 {
+    max-height: 100px;
+    width: 27%;
+  }
+
+  .nav-col-2 {
+    max-height: 100px;
+    width: 53%;
+  }
+
+  .nav-col-3 {
+    max-height: 100px;
+    width: 20%;
+  }
+
+  .row-col-1 {
+    width: 45%;
+  }
+
+  .row-col-2 {
+    width: 55%;
+    padding-right: 6px;
+  }
+
+  .navbar-nav:nth-child(3) {
+    width: 40px;
+  }
+}

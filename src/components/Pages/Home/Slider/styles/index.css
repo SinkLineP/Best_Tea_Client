@@ -1,0 +1,18 @@
+.carousel-size {
+  height: 250px;
+}
+
+.first-slide {
+  background-color: #333333;
+  height: 350px;
+}
+
+.second-slide {
+  background-color: #3a3a3a;
+  height: 350px;
+}
+
+.lasted-slide {
+  background-color: #565558;
+  height: 350px;
+}

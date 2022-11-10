@@ -1,0 +1,22 @@
+.container-tea {
+  width: 100%;
+  display: block;
+}
+
+.tea-filters {
+  display: inline-block;
+  width: 20%;
+}
+
+.tea-products {
+  display: inline-block;
+  width: 80%;
+}
+
+.tea-products-content {
+  display: flex;
+  gap: 3px;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}

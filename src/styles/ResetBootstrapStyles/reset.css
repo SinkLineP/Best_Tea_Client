@@ -1,0 +1,20 @@
+.reset-bootstrap-btn {
+  background: none;
+  border: none;
+  outline: none;
+  border-radius: 0;
+}
+
+.reset-bootstrap-btn:after {
+  display:none;
+}
+
+.reset-bootstrap-btn:focus,
+.reset-bootstrap-btn.active,
+.reset-bootstrap-btn.focus,
+.reset-bootstrap-btn:hover {
+  outline: 0;
+  box-shadow: none;
+  background: none;
+}
+

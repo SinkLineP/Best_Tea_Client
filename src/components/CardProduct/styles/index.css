@@ -1,0 +1,40 @@
+.card-item {
+  width: calc(99% / 4);
+  border: 1px solid #d7d7d7;
+  display: block;
+}
+
+.card-content {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.card-image {
+  width: 100%;
+  margin: 7px 0 7px 0;
+}
+
+.card-art {
+  color: lightgray;
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+}
+
+.card-title {
+  font-size: 20px;
+  color: #3a3a3a;
+}
+
+.card-price {
+  font-size: 20px;
+}
+
+.card-link {
+  text-decoration: none;
+  color: black;
+}
+
+.card-link:hover {
+  color: black;
+}

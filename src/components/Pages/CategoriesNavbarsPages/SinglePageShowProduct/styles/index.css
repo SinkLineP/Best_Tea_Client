@@ -1,0 +1,177 @@
+.header-product {
+  display: flex;
+  width: 100%;
+}
+/*=====*/
+
+.mini-photos {
+  width: 15%;
+}
+
+.preview-mini-image {
+  width: 45%;
+}
+
+/*======*/
+.preview-image-product {
+  width: 35%;
+}
+
+.preview-full-image {
+  width: 90%;
+}
+/*======*/
+.product-menu {
+  width: 50%;
+  border: 1px solid lightgray;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.product-menu-header {
+  display: flex;
+  height: 35px;
+  border-bottom: 1px solid lightgray;
+}
+
+.rate {
+  width: 15%;
+}
+
+.review {
+  width: 45%;
+}
+
+.review-content {
+  display: flex;
+  width: 100%;
+}
+
+.link-reviews {
+  width: 30%;
+}
+
+.link-create-reviews {
+  width: 70%;
+}
+
+.art {
+  width: 40%;
+  text-align: right;
+}
+
+.shadowForBlock {
+  -webkit-box-shadow: 0 2px 7px -2px rgba(34, 60, 80, 0.54);
+  -moz-box-shadow: 0 2px 7px -2px rgba(34, 60, 80, 0.54);
+  box-shadow: 0 2px 7px -2px rgba(34, 60, 80, 0.54);
+}
+
+.product-menu-content {
+  display: flex;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.content-price {
+  width: 50%;
+}
+
+.content-info {
+  width: 50%;
+}
+
+/*===========*/
+
+.price {
+  display: flex;
+  height: 40px;
+}
+
+.price-number {
+  font-size: 30px;
+  padding-right: 10px;
+}
+
+
+.low-count-products {
+  padding: 5px 7px 5px 7px;
+  color: white;
+  background-color: #e89802;
+  border-radius: 41px 41px 41px 0px;
+  -webkit-border-radius: 41px 41px 41px 0px;
+  -moz-border-radius: 41px 41px 41px 0px;
+}
+
+.high-count-products {
+  padding: 5px 7px 5px 7px;
+  color: white;
+  background-color: forestgreen;
+  border-radius: 41px 41px 41px 0px;
+  -webkit-border-radius: 41px 41px 41px 0px;
+  -moz-border-radius: 41px 41px 41px 0px;
+}
+
+/*========================*/
+
+.product-stock > p {
+  color: white;
+  padding: 1px 4px 1px 4px;
+  text-align: center;
+  margin-top: 4px;
+  border-radius: 5px;
+}
+
+.stock-have {
+  background-color: forestgreen;
+  width: 92px;
+}
+
+.stock-no-have {
+  background-color: indianred;
+  width: 120px;
+}
+
+/*=======================*/
+
+.input-group-add-to-cart {
+  width: 80%;
+}
+
+.input-count-product {
+  width: 20%;
+}
+
+.btn-add-to-cart {
+  width: 80%;
+  text-transform: uppercase;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-weight: bold;
+  background-color: forestgreen;
+}
+
+/*=====================*/
+
+.other-move-products {
+  text-align: center;
+  margin-right: 20%;
+}
+
+.other-move-products > button {
+  border: none;
+  background: none;
+  color: #30A1F3;
+  text-decoration: underline;
+}
+
+.other-move-products > button:hover {
+  color: #2789d0;
+}
+
+.postpone {
+
+}
+
+.compare {
+
+}
